@@ -1,9 +1,7 @@
-self.addEventListener('install', function(event) {
+self.addEventListener('install', event => {
   // Perform install steps
 });
 
-self.addEventListener('fetch', function(event) {
-  event.respondWith(
-    fetch(event.request)
-  );
+self.addEventListener('fetch', event => {
+  // Handle fetch events
 });
